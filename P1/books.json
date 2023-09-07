@@ -1,0 +1,31 @@
+[
+    {
+      "bookId": "1",
+      "bookName": "The Great Gatsby",
+      "bookSubject": "Fiction",
+      "bookAuthor": "F. Scott Fitzgerald",
+      "price": "15.99"
+    },
+    {
+      "bookId": "2",
+      "bookName": "To Kill a Mockingbird",
+      "bookSubject": "Fiction",
+      "bookAuthor": "Harper Lee",
+      "price": "12.99"
+    },
+    {
+      "bookId": "3",
+      "bookName": "1984",
+      "bookSubject": "Science Fiction",
+      "bookAuthor": "George Orwell",
+      "price": "10.99"
+    },
+    {
+      "bookId": "4",
+      "bookName": "The Hobbit",
+      "bookSubject": "Fantasy",
+      "bookAuthor": "J.R.R. Tolkien",
+      "price": "14.99"
+    }
+  ]
+  

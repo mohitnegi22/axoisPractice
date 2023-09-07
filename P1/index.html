@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Book Management</title>
+    <style>
+        .bordered {
+            border-collapse: collapse;
+            border: 1px solid #000; /* Add a 1px black border to the table and cells */
+        }
+
+        .bordered th,
+        .bordered td {
+            border: 1px solid #000; /* Add a 1px black border to table header cells and data cells */
+            padding: 8px; /* Add padding to cells for better spacing */
+        }
+    </style>
+</head>
+<body>
+    <h1>Book Management</h1>
+    
+    <!-- Book Input Form -->
+    <!-- Book Input Form -->
+<form id="bookForm">
+    <div class="form-group">
+        <label for="bookId">Book ID:</label>
+        <input type="text" id="bookId" required>
+    </div>
+    <div class="form-group">
+        <label for="bookName">Book Name:</label>
+        <input type="text" id="bookName" required>
+    </div>
+    <div class="form-group">
+        <label for="bookSubject">Book Subject:</label>
+        <input type="text" id="bookSubject" required>
+    </div>
+    <div class="form-group">
+        <label for="bookAuthor">Book Author:</label>
+        <input type="text" id="bookAuthor" required>
+    </div>
+    <div class="form-group">
+        <label for="price">Price:</label>
+        <input type="number" id="price" required>
+    </div>
+    <button type="submit">Add</button>
+</form>
+
+
+    <!-- Book Table -->
+   <table id="bookTable" class="bordered">
+        <thead>
+            <tr>
+                <th>Book ID</th>
+                <th>Book Name</th>
+                <th>Book Subject</th>
+                <th>Book Author</th>
+                <th>Price</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="bookTableBody" class="bordered">
+            <!-- Book data will be displayed here -->
+        </tbody>
+    </table>
+    <script src="script2.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+</body>
+</html>
